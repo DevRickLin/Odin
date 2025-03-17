@@ -1,0 +1,27 @@
+# 环境变量和敏感信息
+.env
+.env.local
+.env.*.local
+
+# Python虚拟环境
+venv/
+.venv/
+env/
+browser_use_env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 生成的结果文件
+*.md
+!README.md
+search_results/
+*.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/ 
